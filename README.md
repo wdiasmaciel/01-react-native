@@ -11,7 +11,7 @@
 
 
 3) Copie e cole o conteúdo abaixo dentro do arquivo ```devcontainer.json```.
-```JS
+```JavaScript
 // OBS: https://containers.dev/implementors/json_reference/
 {
     // A imagem base para o seu Codespace. Esta imagem já vem com Node.js pré-instalado.
