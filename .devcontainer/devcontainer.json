@@ -1,17 +1,3 @@
-# 01-react-native
-
-
-## Configuração do VS Code para Trabalhar com o React Native:
-
-
-1) Crie uma pasta chamada ```.devcontainer``` na raiz do seu repositório no GitHub.
-
-
-2) Dentro dessa pasta ```.devcontainer```, crie um arquivo chamado ```devcontainer.json```.
-
-
-3) Copie e cole o conteúdo abaixo dentro do arquivo ```devcontainer.json```.
-```JS
 // OBS: https://containers.dev/implementors/json_reference/
 {
     // A imagem base para o seu Codespace. Esta imagem já vem com Node.js pré-instalado.
@@ -55,44 +41,3 @@
         // Variáveis de ambiente que podem ser definidas no container
     }
 }
-```
-
-
-4) Faça o ```commit``` e ```push``` dessas alterações para o seu repositório:
-```
-git add .
-```
-
-```
-git commit -m "Arquivo de configuração para o VS Code."
-```
-
-```
-git push
-```
-
-__OBS__: na próxima vez que você abrir um ```Codespace``` para este repositório, ele usará esta configuração para construir o ambiente, e você já terá o ```Expo CLI``` e as extensões prontas para usar.
-
-
-## Criação de um Novo Projeto:
-
-
-1) No terminal, executar o comando:
-```
-npx create-expo-app aplicativo
-```
-
-__OBS__: caso alguma confirmação seja exigida, digitar _yes_ (_y_).
-
-
-
-2) Navegue para dentro da pasta criada, neste exemplo a pasta ```aplicativo```:
-```Bash
-cd meu-app
-```
-
-
-3) Depois de informar o código do aplicativo, execute o comando abaixo para executá-lo:
-```
-npx expo start
-```
