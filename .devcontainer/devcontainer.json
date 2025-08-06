@@ -1,13 +1,14 @@
-// OBS: https://containers.dev/implementors/json_reference/
+// For more info, see: https://containers.dev/implementors/json_reference/
 {
-    // A imagem base para o seu Codespace. Esta imagem já vem com Node.js pré-instalado.
-    // Você pode especificar uma versão específica do Node.js aqui, se preferir.
-    "image": "mcr.microsoft.com/devcontainers/javascript:0-18",
+    // A imagem base para o seu Codespace. Usaremos uma imagem universal e adicionaremos o Node.js como feature.
+    "image": "mcr.microsoft.com/devcontainers/universal:latest",
 
     // Recursos adicionais que podem ser instalados no seu Codespace.
-    // Aqui, não estamos adicionando nenhum recurso extra, pois a imagem base já é suficiente.
+    // Adicionamos o Node.js v18 como uma feature.
     "features": {
-        // Exemplo: "ghcr.io/devcontainers/features/node:1": {}
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "18" // Especifica a versão do Node.js
+        }
     },
 
     // Comandos a serem executados após a criação do Codespace.
@@ -36,7 +37,7 @@
     // "workspaceFolder": "/workspaces/01-react-native", // Descomente e ajuste se necessário
 
     // Configurações para o terminal.
-    "remoteUser": "node", // Define o usuário remoto para o container
+    "remoteUser": "vscode", // <--- ALTERADO PARA 'vscode'
     "containerEnv": {
         // Variáveis de ambiente que podem ser definidas no container
     }
