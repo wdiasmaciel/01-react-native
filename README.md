@@ -153,8 +153,6 @@ Atualize a aba do navegador para visualizar a alteração.
   - `light-content`
   - `default`
 
----
-
 ### Resumo
 
 A linha:
