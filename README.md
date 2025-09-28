@@ -177,4 +177,4 @@ Repositório do projeto: [https://github.com/wdiasmaciel/01-react-native](https:
    - Um cumprimento com o seu nome.
    - Fundo da tela (background) na cor **vermelha**.
 
-💡 *Dica:* Use o estilo `backgroundColor: 'red'` e altere o texto para algo como `Olá, Wesley!`
+*Dica:* Use o estilo `backgroundColor: 'red'` e altere o texto para algo como `Olá, Wesley!`
