@@ -139,14 +139,10 @@ Atualize a aba do navegador para visualizar a alteração.
   - Status da rede (Wi-Fi, dados móveis).
 - O atributo `style="auto"` ajusta automaticamente o estilo dos elementos internos da barra (como texto e ícones) para melhor se adequarem ao **tema claro** ou **escuro** do aplicativo, garantindo a legibilidade do conteúdo.
 
----
-
 ### `style`
 
 - Define o estilo dos elementos dentro da barra de status.
 - A opção `"auto"` adapta a cor dos ícones (claro ou escuro) com base no contraste com o fundo da barra.
-
----
 
 ### Outras propriedades comuns
 
