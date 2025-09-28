@@ -128,6 +128,47 @@ const styles = StyleSheet.create({
 
 Atualize a aba do navegador para visualizar a alteração.
 
+> **OBS:**
+
+### `<StatusBar style="auto" />`
+
+- `<StatusBar style="auto" />` é um componente que controla a aparência da **barra de status superior** do dispositivo móvel.
+- A barra de status exibe informações essenciais, como:
+  - Hora.
+  - Nível da bateria.
+  - Status da rede (Wi-Fi, dados móveis).
+- O atributo `style="auto"` ajusta automaticamente o estilo dos elementos internos da barra (como texto e ícones) para melhor se adequarem ao **tema claro** ou **escuro** do aplicativo, garantindo a legibilidade do conteúdo.
+
+---
+
+### `style`
+
+- Define o estilo dos elementos dentro da barra de status.
+- A opção `"auto"` adapta a cor dos ícones (claro ou escuro) com base no contraste com o fundo da barra.
+
+---
+
+### Outras propriedades comuns
+
+- `hidden`: para **esconder** ou **exibir** a barra de status.
+- `backgroundColor`: para definir a **cor de fundo** da barra, integrando-a à identidade visual do aplicativo.
+- `barStyle`: permite definir explicitamente o estilo como:
+  - `dark-content`
+  - `light-content`
+  - `default`
+
+---
+
+### Resumo
+
+A linha:
+
+```tsx
+<StatusBar style="auto" />
+```
+
+Garante que a barra de status seja configurada com um estilo padrão que se adapta dinamicamente ao tema do seu aplicativo, mantendo o conteúdo interno legível.
+
 ---
 
 ## GitHub
