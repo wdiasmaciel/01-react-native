@@ -41,7 +41,7 @@ Com ele, você escreve um único código e gera aplicativos para múltiplas plat
 
 - **Editor:** Visual Studio Code (VS Code)
 
-- **App Expo Go:** Instalar no celular Android/iOS
+- **App Expo Go:** instalar no celular Android/iOS.
 
 ---
 
