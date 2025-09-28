@@ -1,5 +1,3 @@
-# 01-react-native
-
 # React Native
 
 **Autor:** Wesley Dias Maciel  
